@@ -8,11 +8,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { label: "PG / Hostels", href: "#pg-hostels" },
-    { label: "Mess / Cafe", href: "#mess-cafe" },
-    { label: "Gaming Zone", href: "#gaming-zone" },
-    { label: "About Us", href: "#about" },
-    { label: "Contact", href: "#contact" },
+    { label: "PG / Hostels", href: "/pg-hostels" },
+    { label: "Mess / Cafe", href: "/mess-cafe" },
+    { label: "Gaming Zone", href: "/gaming-zone" },
+    { label: "About Us", href: "/about" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
